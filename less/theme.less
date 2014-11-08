@@ -1,0 +1,17 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+
+#about{
+  .container{
+    width: 80%; // それ以外の数値
+      @media screen and (min-width: @screen-lg-min) {　　
+        width: 1000px; // 自分で決め内したい数値
+      }
+  }
+}

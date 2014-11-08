@@ -1,0 +1,262 @@
+/* ------------------------------------- */
+/*     Body
+/* ------------------------------------- */
+
+body {
+	background-image: url(../images/bg.png);
+}
+
+h1 {
+	padding-bottom: 5px;
+	font-family: 'Playball', 'Hiragino Mincho ProN', 'cursive';
+	font-size: 50px;
+	color: #96cdc8;
+}
+
+h3 {
+	padding-bottom: 10px;
+	font-family: 'Playball', 'Hiragino Mincho ProN', 'cursive';
+	font-size: 30px;
+}
+
+h4 {
+	padding-bottom: 10px;
+	font-family: 'Playball', 'Hiragino Mincho ProN', 'cursive';
+	font-size: 20px;
+}
+
+h5 {
+	padding-bottom: 10px;
+	font-family: 'Playball', 'Hiragino Mincho ProN', 'cursive';
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Hiragino Mincho ProN', 'Playball', 'cursive';
+	line-height: 26px;
+}
+
+p img {
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+}
+
+li {
+	font-size: 18px;
+	font-family: 'Playball', 'Hiragino Mincho ProN', 'cursive';
+}
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar-fixed-top {
+	background-color: #fff;
+	background-image: url(../images/bg.png);
+
+}
+
+.navbar-fixed-top .container {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+/*     Header
+/* ------------------------------------- */
+
+header {
+	padding-top: 20px;	
+}
+
+
+/*  logo
+/*--------------------------------- */
+
+.logo h1{ /* センタリング */
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*  nav
+/*--------------------------------- */
+ 
+.navbar-nav {
+    float: none;
+    width: 240px;
+    margin: 10px auto;
+}
+ 
+.navbar-nav li {
+    text-align: center;
+    float: left;
+    width: 80px;
+    border-right: 1px solid #555;
+}
+
+.navbar-nav li.first {
+    border-left: 1px solid #555;
+}
+ 
+.navbar-nav li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*  about me
+/*--------------------------------- */
+
+.profile-text{
+	list-style: none;
+}
+
+ul.profile-text{
+	padding-left: 4px;
+}
+
+.profile-text li{
+	padding-bottom: 10px;
+}
+
+ul.sns{
+	padding-left: 15px;
+}
+
+.sns {
+	list-style: none;
+}
+
+.glyphicon-bullhorn {
+	padding-right: 8px;
+}
+
+
+
+/*  content
+/*--------------------------------- */
+
+.text-box {
+	margin-bottom: 40px;
+}
+
+p {
+	font-family: 'Playball','Hiragino Mincho ProN', cursive;
+}
+
+label {
+	font-size: 18px;
+	font-family: 'Playball', cursive;
+}
+
+button {
+	font-size: 18px;
+	font-family: 'Playball', cursive;
+}
+
+/*  work
+/*--------------------------------- */
+
+.label {
+	font-family: 'Hiragino Mincho ProN', 'Playball', cursive;
+}
+
+a {
+	font-family: 'Playball', 'Hiragino Mincho ProN', cursive;
+	
+}
+
+.work-text {
+	padding-left: 200px;
+}
+
+.text-center {
+	padding-bottom: 10px;
+}
+
+
+/* contact
+/*--------------------------------- */
+#contact {
+	padding: 40px 0;
+}
+
+form {
+	display: block;
+	margin: auto;
+}
+
+form button.btn-default {
+	float: right;
+}
+
+.form-group label{
+	display: block;
+}
+.form-group .form-control-name{
+	width: 240px;
+}
+
+
+
+
+/*  footer
+/*--------------------------------- */
+
+.footer {
+	text-align: center;
+	padding: 20px 0;
+	background-image: url(../images/bg_footer.png);
+}
+
+
+/*  copy
+/*--------------------------------- */
+
+.copy {
+	margin-top: 20px;
+}
+
+.copy span {
+	color: #333;
+	font-size: 16px;
+	font-family: 'Playball', cursive;
+}
+
+/*  tothetop
+/*--------------------------------- */
+
+.tothetop {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 8em;
+}
+
+.tothetop a {
+    display: block;
+    color: #dddddd;
+    padding: 12px 6px;
+    margin: 0;
+    background-color: #555555;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+ 
+.tothetop a:hover {
+    background: #888888;
+    color: #FFFFFF;
+}
+}
